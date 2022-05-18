@@ -1,5 +1,5 @@
 
-package POSTTEST_4;
+package POSTTEST6;
 
 
 import java.util.ArrayList;
@@ -117,19 +117,23 @@ public class main{
         System.out.println("\n");
         System.out.println("++============== TODO LIST ===========++");
         System.out.println("++              Jadwal Anda           ++");
-        kegiatan asal = new kegiatan("IF A 20", "Futsal", "16.00", "2 jam", "Lawan IF 19");
         kegiatan asal1 = new kegiatan("Ilham", "Tugas", "22.00", "1 jam", "PBO");
         Belajar belajar1 = new Belajar("Yanuar", "Belajar", "20.00", "1 jam", "Inheritance PBO");
         Nongkrong ngongkrong1 = new Nongkrong("Naufal", "Nongkrong", "19.00", "1 jam", "Diskusi KOMASA");
+        Olahraga Olahraga1 = new Olahraga("Yanuar", "Jogging", "16.00", "1 jam", "Gor Sempaja","Di lakukan selama 1 bulan");
+        Yanuar ngedate = new Yanuar("ngedate","20.00","Sampai Bosan","Nibung","Sama Ayang");
         System.out.println("\n");
         System.out.println("   Kegiatan "+ 1);
-        asal.lihat("Sudah Terlaksana");
-        System.out.println("   Kegiatan "+ 2);
-        ngongkrong1.lihat("Sudah selesai");
-        System.out.println("   Kegiatan "+ 3);
         belajar1.lihat();
-        System.out.println("   Kegiatan "+ 4);
+        System.out.println("   Kegiatan "+ 2);
+        ngongkrong1.lihat();
+        System.out.println("   Kegiatan "+ 3);
         asal1.lihat();
+        System.out.println("   Kegiatan "+ 4);
+        Olahraga1.lihat();
+        System.out.println("   Kegiatan "+ 5);
+        ngedate.status();
+        
         
 
 
